@@ -1,6 +1,6 @@
-fs = require("fs");
+const fs = require("fs");
 const https = require("https");
-process = require("process");
+const process = require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
@@ -94,8 +94,13 @@ if (USE_GITHUB_DATA === "true") {
   req.write(data);
   req.end();
 }
-
-if (MEDIUM_USERNAME !== undefined) {
+if (MEDIUM_USERNAME === undefined) {
+  console.log(
+    "no medium username",
+    "path is",
+    `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`
+  );
+} else if (MEDIUM_USERNAME !== undefined) {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
