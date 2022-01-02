@@ -37,13 +37,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle:
-    "FULL STACK DEVELOPER WHO LOVES WRITING CLEAN CODE AND SOLVING PROBLEMS",
+  // subTitle:
+  //   "FULL STACK DEVELOPER WHO LOVES WRITING CLEAN CODE AND SOLVING PROBLEMS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / UI for your web applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
+    emoji("⚡ Develop front end and back end for web applications"),
+    emoji("⚡ Love writing clean code and solving algorithms problems")
+
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     // )
