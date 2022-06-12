@@ -1,47 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a24a8bbc3c36307395483be6381338cc",
+    "revision": "d6f1b7d545bac59836d9ee98c6350657",
     "url": "/developerFolio/index.html"
   },
   {
-    "revision": "56f9339938444e764952",
+    "revision": "3891e9041e38e30cbbce",
     "url": "/developerFolio/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "b851cae481ebdf3c3e3d",
+    "revision": "e7c834bd23d96473dfd2",
     "url": "/developerFolio/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "4e0ef11345bd7a28a0e8",
+    "revision": "dadbea54a2913ddcc3ea",
     "url": "/developerFolio/static/css/main.dcf76762.chunk.css"
   },
   {
-    "revision": "9345bd8867fb136d579f",
-    "url": "/developerFolio/static/js/2.924c71fa.chunk.js"
+    "revision": "0bdd0a06126d0d9c1aec",
+    "url": "/developerFolio/static/js/2.8e44c94f.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/developerFolio/static/js/2.924c71fa.chunk.js.LICENSE.txt"
+    "url": "/developerFolio/static/js/2.8e44c94f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56f9339938444e764952",
-    "url": "/developerFolio/static/js/3.36e27f0d.chunk.js"
+    "revision": "3891e9041e38e30cbbce",
+    "url": "/developerFolio/static/js/3.c7e2012f.chunk.js"
   },
   {
-    "revision": "b851cae481ebdf3c3e3d",
-    "url": "/developerFolio/static/js/4.9d05cdf4.chunk.js"
+    "revision": "e7c834bd23d96473dfd2",
+    "url": "/developerFolio/static/js/4.2b92f044.chunk.js"
   },
   {
-    "revision": "4e0ef11345bd7a28a0e8",
-    "url": "/developerFolio/static/js/main.bea4c3a4.chunk.js"
+    "revision": "dadbea54a2913ddcc3ea",
+    "url": "/developerFolio/static/js/main.c7ea27b3.chunk.js"
   },
   {
-    "revision": "5e23bf56313b820e0723",
-    "url": "/developerFolio/static/js/runtime-main.999128bd.js"
+    "revision": "42e04c239d6d3139b29d",
+    "url": "/developerFolio/static/js/runtime-main.b2e0b96d.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/developerFolio/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "1d749b90ffad156d6b6bbf9a00bd68d7",
+    "url": "/developerFolio/static/media/FoodAtlas.1d749b90.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
