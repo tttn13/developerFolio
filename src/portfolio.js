@@ -14,10 +14,10 @@ const greeting = {
   username: "Thi Nguyen",
   title: "Hi all, I'm Thi",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 experienced in building applications using JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 experienced in building applications using React / React Native / Node and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1dGlziDT7AYY4b65o1nDAnHYSCTqcsXON/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/19MPifEyn9PhISOMQ0BU33YPqaNxwHAgR/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -148,7 +148,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -209,6 +209,18 @@ const bigProjects = {
         {
           name: "Visit App",
           url: "https://mysocialappmsa.herokuapp.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/FoodAtlas.png"),
+      projectName: "Food Atlas",
+      projectDesc: "A mobile React Native app that serves as an online directory for discovering local food businesses",
+      footerLink: [
+        {
+          name: "Visit App",
+          url: "https://appetize.io/embed/r3t39d70v0a8e7ag2gfduzrrq0?device=iphone8&osVersion=13.7&scale=75"
         }
         //  you can add extra buttons here.
       ]
